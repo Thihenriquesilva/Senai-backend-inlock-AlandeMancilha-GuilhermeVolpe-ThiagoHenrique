@@ -8,6 +8,8 @@ namespace InLock.WebAPI.Interfaces
 {
     interface IEstudioRepository
     {
+        List<EstudioDomain> Listar();
+        void Cadastrar(EstudioDomain estudio);
         
     }
 }

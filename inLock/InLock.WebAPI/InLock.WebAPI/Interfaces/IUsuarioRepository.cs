@@ -8,11 +8,8 @@ namespace InLock.WebAPI.Interfaces
 {
     interface IUsuarioRepository
     {
-
         List<UsuarioDomain> Listar();
-
-        void Cadastrar(UsuarioDomain novoUsuario);
-
-
+        void Cadastrar(UsuarioDomain usuario);
+        UsuarioDomain BuscarEmailSenha(string email, string senha);
     }
 }

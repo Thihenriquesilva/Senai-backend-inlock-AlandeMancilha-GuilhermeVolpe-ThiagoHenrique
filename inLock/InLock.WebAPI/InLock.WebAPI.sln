@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.960
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InLock.WebAPI", "InLock.WebAPI\InLock.WebAPI.csproj", "{62CD584A-DEE1-4029-83BD-4A13E85ED200}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InLock.WebAPI", "InLock.WebAPI\InLock.WebAPI.csproj", "{6A9B33B6-8220-47AE-A7AD-0425887A2442}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{62CD584A-DEE1-4029-83BD-4A13E85ED200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62CD584A-DEE1-4029-83BD-4A13E85ED200}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62CD584A-DEE1-4029-83BD-4A13E85ED200}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62CD584A-DEE1-4029-83BD-4A13E85ED200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9B33B6-8220-47AE-A7AD-0425887A2442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9B33B6-8220-47AE-A7AD-0425887A2442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9B33B6-8220-47AE-A7AD-0425887A2442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9B33B6-8220-47AE-A7AD-0425887A2442}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {ADE3FCFB-7C2D-4009-B19C-B3B3EF286BE8}
+		SolutionGuid = {57229640-A16C-4971-AC0A-8D08EBACEA2C}
 	EndGlobalSection
 EndGlobal

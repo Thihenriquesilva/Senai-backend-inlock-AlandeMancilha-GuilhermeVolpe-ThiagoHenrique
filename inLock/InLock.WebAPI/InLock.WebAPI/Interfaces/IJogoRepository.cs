@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace InLock.WebAPI.Interfaces
 {
-    interface ITipoUsuarioRepository
+    interface IJogoRepository
     {
-        List<TipoUsuarioDomain> Listar();
-        void Cadastrar(TipoUsuarioDomain tipoUsuario);
+        List<JogoDomain> Listar();
+
+        void Cadastrar(JogoDomain jogo);
     }
 }

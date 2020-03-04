@@ -10,50 +10,50 @@ namespace InLock.WebAPI.Repositories
 {
     public class TipoUsuarioRepository : ITipoUsuarioRepository
     {
-        private string stringConexao = "Data Source=DEV1201\\SQLEXPRESS; initial catalog=DB_InLock; user Id=sa; pwd=sa@132";
-
+        private string _stringConexao = "Data Source=HP440G1\\SQLEXPRESS; initial catalog=DB_InLock; user Id=sa; pwd=Amss@951620";
 
         public List<TipoUsuarioDomain> Listar()
         {
-            List<TipoUsuarioDomain> tiposUsuario = new List<TipoUsuarioDomain>();
+            List<TipoUsuarioDomain> listaTiposUsuario = new List<TipoUsuarioDomain>();
 
-            using (SqlConnection con = new SqlConnection(stringConexao))
+            using (SqlConnection con = new SqlConnection(_stringConexao))
             {
-                string querySelectAll = "SELECT IdTipoUsuario, TituloTipoUsuario FROM TBL_TipoUsuario";
-                
+                string query = "SELECT IdTipoUsuario, TituloTipoUsuario FROM TBL_TipoUsuario";
+
 
                 con.Open();
 
                 SqlDataReader rdr;
 
-                using (SqlCommand cmd = new SqlCommand(querySelectAll, con))
+                using (SqlCommand cmd = new SqlCommand(query, con))
                 {
                     rdr = cmd.ExecuteReader();
 
                     while (rdr.Read())
                     {
-                        TipoUsuarioDomain tpUsers = new TipoUsuarioDomain
+                        TipoUsuarioDomain tipoUsuario = new TipoUsuarioDomain
                         {
                             IdTipoUsuario = Convert.ToInt32(rdr["IdTipoUsuario"]),
                             TituloTipoUsuario = rdr["TituloTipoUsuario"].ToString()
                         };
 
-                        tiposUsuario.Add(tpUsers);
+                        listaTiposUsuario.Add(tipoUsuario);
                     }
                 }
             }
-            return tiposUsuario;
+            return listaTiposUsuario;
         }
 
-        public void Cadastrar (TipoUsuarioDomain tipoUsuario)
-        {
-            using (SqlConnection con = new SqlConnection(stringConexao))
-            {
-                string queryInsert = "INSERT INTO TBL_TipoUsuario(TituloTipoUsuario) VALUES (@TituloTipoUsuario) ";
 
-                using(SqlCommand cmd = new SqlCommand (queryInsert, con))
+        public void Cadastrar(TipoUsuarioDomain novoTipoUsuario)
+        {
+            using (SqlConnection con = new SqlConnection(_stringConexao))
+            {
+                string query = "INSERT INTO TBL_TipoUsuario(TituloTipoUsuario) VALUES (@TituloTipoUsuario) ";
+
+                using (SqlCommand cmd = new SqlCommand(query, con))
                 {
-                    cmd.Parameters.AddWithValue("TituloTipoUsuario", tipoUsuario.TituloTipoUsuario);
+                    cmd.Parameters.AddWithValue("TituloTipoUsuario", novoTipoUsuario.TituloTipoUsuario);
 
                     con.Open();
 
@@ -61,5 +61,6 @@ namespace InLock.WebAPI.Repositories
                 }
             }
         }
+
     }
 }

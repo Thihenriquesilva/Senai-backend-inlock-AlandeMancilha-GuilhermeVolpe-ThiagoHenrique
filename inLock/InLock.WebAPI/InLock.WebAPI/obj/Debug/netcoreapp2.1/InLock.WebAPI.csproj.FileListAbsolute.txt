@@ -1,28 +1,14 @@
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.deps.json
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.runtimeconfig.json
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.runtimeconfig.dev.json
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.dll
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.csprojAssemblyReference.cache
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.RazorAssemblyInfo.cache
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.RazorAssemblyInfo.cs
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.AssemblyInfoInputs.cache
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.AssemblyInfo.cs
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.RazorTargetAssemblyInfo.cache
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.pdb
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.dll
-C:\Users\47490086809\Downloads\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.pdb
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.deps.json
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.runtimeconfig.json
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.runtimeconfig.dev.json
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.dll
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.pdb
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.csprojAssemblyReference.cache
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.RazorAssemblyInfo.cache
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.RazorAssemblyInfo.cs
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.AssemblyInfoInputs.cache
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.AssemblyInfo.cs
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.RazorTargetAssemblyInfo.cache
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.dll
-C:\Users\thi_s\OneDrive\Área de Trabalho\GITHUB\MVC\inLock\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.pdb
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.deps.json
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.runtimeconfig.json
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.runtimeconfig.dev.json
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.dll
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.csprojAssemblyReference.cache
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.RazorAssemblyInfo.cache
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.RazorAssemblyInfo.cs
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.AssemblyInfoInputs.cache
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.AssemblyInfo.cs
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\bin\Debug\netcoreapp2.1\InLock.WebAPI.pdb
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.dll
+C:\Users\Allan Mancilha\Desktop\InLock.WebAPI\InLock.WebAPI\obj\Debug\netcoreapp2.1\InLock.WebAPI.pdb

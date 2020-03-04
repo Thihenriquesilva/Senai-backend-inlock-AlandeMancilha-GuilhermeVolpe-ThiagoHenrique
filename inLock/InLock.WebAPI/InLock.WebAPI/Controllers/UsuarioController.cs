@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using InLock.WebAPI.Domains;
-using InLock.WebAPI.Interfaces;
 using InLock.WebAPI.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -29,7 +28,7 @@ namespace InLock.WebAPI.Controllers
             return Ok(_usuarioRepository.Listar());
 
         }
-        
+
         [HttpPost]
         public IActionResult Post(UsuarioDomain novoUsuario)
         {

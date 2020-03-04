@@ -1,0 +1,270 @@
+{
+	"info": {
+		"_postman_id": "1234a0ba-c025-4b9c-adaa-03d12a4c159b",
+		"name": "InLock.WebAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Usuario [HttpGet]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50492/api/Usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50492",
+					"path": [
+						"api",
+						"Usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jogo [HttpGet]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50492/api/Jogo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50492",
+					"path": [
+						"api",
+						"Jogo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TipoUsuario [HttpGet]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50492/api/TipoUsuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50492",
+					"path": [
+						"api",
+						"TipoUsuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Estudio [HttpGet]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50492/api/Estudio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50492",
+					"path": [
+						"api",
+						"Estudio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Estudio [HttpPost]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"NomeEstudio\": \"FromSoftware, Inc\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50492/api/Estudio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50492",
+					"path": [
+						"api",
+						"Estudio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jogo [HttpPost]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"NomeJogo\": \"DARK SOULS II\", \"Descricao\": \"É MAIS SUAVE QUE O DARK SOULS I E DARK SOULS III\", \"DataLancamento\": \"2014-03-11\", \"Valor\": 99.99, \"FK_IdEstudio\": 4}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50492/api/Jogo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50492",
+					"path": [
+						"api",
+						"Jogo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TipoUsuario [HttpPost]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"TituloTipoUsuario\": \"TESTE\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50492/api/TipoUsuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50492",
+					"path": [
+						"api",
+						"TipoUsuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuario [HttpPost]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Email\": \"teste@teste.com\", \"Senha\": \"teste\", \"FK_IdTipoUsuario\": \"3\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50492/api/Usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50492",
+					"path": [
+						"api",
+						"Usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login [HttpPost]  JWT",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Email\": \"teste@teste.com\", \"Senha\": \"teste\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50492/api/Login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50492",
+					"path": [
+						"api",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
